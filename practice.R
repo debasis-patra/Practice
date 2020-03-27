@@ -6,6 +6,7 @@ iris
 
 # Add new column for area
 
-iris[, Sepal.Area := Sepal.Length * Sepal.Width]
+iris[, Petal.Area := Petal.Length * Petal.Width]
 
-iris
+iris[, Sepal.Area := NULL]
+
